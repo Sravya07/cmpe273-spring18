@@ -7,7 +7,7 @@ from concurrent import futures
 
 class PingServer(ping_pb2.PingPongServicer):
     def ping(self, request, context):
-        
+        return Response(data="pong")
         print("Encode:\n", request)
         return None
 
