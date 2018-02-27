@@ -19,7 +19,7 @@ curl -i http://127.0.0.1:5000/
 
 POST users
 
-curl -i -X POST http://127.0.0.1:5000/users -d "name=foo"
+curl -i -X POST http://127.0.0.1:5000/users 
 
 
 Response
