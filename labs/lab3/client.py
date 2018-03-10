@@ -1,6 +1,5 @@
 import zmq
 import sys
-import time
 from threading import Thread
 
 # ZeroMQ Context
